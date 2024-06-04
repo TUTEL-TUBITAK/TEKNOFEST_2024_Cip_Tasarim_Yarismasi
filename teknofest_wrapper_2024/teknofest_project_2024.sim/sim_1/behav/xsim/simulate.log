@@ -1,0 +1,398 @@
+Time resolution is 1 fs
+WARNING: file design.txt could not be opened
+ *** Warning: The analog data file design.txt for XADC instance tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.\temp_mon_enabled.u_tempmon .\xadc_supplied_temperature.XADC_inst  was not found. Use the SIM_MONITOR_FILE parameter to specify the analog data file name or use the default name: design.txt.
+
+############# Write Clocks PLLE2_ADV Parameters #############
+
+nCK_PER_CLK      =       4
+CLK_PERIOD       =    4999
+CLKIN1_PERIOD    =   4.999
+DIVCLK_DIVIDE    =       1
+CLKFBOUT_MULT    =       6
+VCO_PERIOD       =   833.0
+CLKOUT0_DIVIDE_F =       2
+CLKOUT1_DIVIDE   =       4
+CLKOUT2_DIVIDE   =      64
+CLKOUT3_DIVIDE   =      16
+CLKOUT0_PERIOD   =    1666
+CLKOUT1_PERIOD   =    3332
+CLKOUT2_PERIOD   =   53312
+CLKOUT3_PERIOD   =   13328
+CLKOUT4_PERIOD   =    6664
+############################################################
+
+############# MMCME2_ADV Parameters #############
+
+MMCM_MULT_F           =          15
+MMCM_VCO_FREQ (MHz)   = 1200.000
+MMCM_VCO_PERIOD       = 833.333
+#################################################
+
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : BYTE_LANES_B0 = f BYTE_LANES_B1 = 0 DATA_CTL_B0 = 5 DATA_CTL_B1 = 0
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : HIGHEST_LANE =           4 HIGHEST_LANE_B0 =           4 HIGHEST_LANE_B1 =           0
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : HIGHEST_BANK =           1
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : FREQ_REF_PERIOD         = 1666.00 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : DDR_TCK                 = 3333 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_S2_TAPS_SIZE         = 13.02 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_EARLY       = 1 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_OFFSET      = 1783.43 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_META_ZONE   = 200.00 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_FINE_INTR_DLY   = 944.72 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_COARSE_INTR_DLY = 604.85 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_INTRINSIC_DELAY = 1549.57 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_DELAY       = 60 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_INTRINSIC_DELAY      = 1549.57 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_DELAY                = 2330.51 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_OCLK_DELAY           = 0 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : L_PHY_0_PO_FINE_DELAY   = 60 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_STG1_INTRINSIC_DELAY = 0.00 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_STG2_INTRINSIC_DELAY = 919.47 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_INTRINSIC_DELAY      = 919.47 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_MAX_STG2_DELAY       = 819.98 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_OFFSET               = 212.00 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_STG2_DELAY           = 212.00 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy :PI_STG2_DELAY_CAND       = 212.00 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : DEFAULT_RCLK_DELAY      = 16 
+tb_teknofest_wrapper.u_dut.u_teknofest_memory.\gen_ddr.u_ddr .u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : RCLK_SELECT_EDGE        = 111 
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 2058362.0 ps WARNING: 200 us is required before CKE goes active.
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 7097985.0 ps INFO: Precharge All
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 8831319.0 ps INFO: Load Mode 2
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 8831319.0 ps INFO: Load Mode 2 High Temperature Self Refresh rate = 1X (0C-85C)
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 10564652.0 ps INFO: Load Mode 3
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 12297985.0 ps INFO: Load Mode 1
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 12297985.0 ps INFO: Load Mode 1 DLL Enable = Enabled
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 12297985.0 ps INFO: Load Mode 1 Output Drive Strength = Full
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 12297985.0 ps INFO: Load Mode 1 ODT Rtt = 50 Ohm
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 12297985.0 ps INFO: Load Mode 1 Additive Latency =           0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 12297985.0 ps INFO: Load Mode 1 OCD Program = OCD Exit
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 12297985.0 ps INFO: Load Mode 1 DQS_N Enable = Enabled
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 12297985.0 ps INFO: Load Mode 1 RDQS Enable = Disabled
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 12297985.0 ps INFO: Load Mode 1 Output Enable = Enabled
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 14031319.0 ps INFO: Load Mode 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 14031319.0 ps INFO: Load Mode 0 Burst Length =  8
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 14031319.0 ps INFO: Load Mode 0 Burst Order = Sequential
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 14031319.0 ps INFO: Load Mode 0 CAS Latency =           5
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 14031319.0 ps INFO: Load Mode 0 Test Mode = Normal
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 14031319.0 ps INFO: Load Mode 0 DLL Reset = Reset DLL
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 14031319.0 ps INFO: Load Mode 0 Write Recovery =           5
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 14031319.0 ps INFO: Load Mode 0 Power Down Mode = Fast Exit
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 15764652.0 ps INFO: Precharge All
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 17497985.0 ps INFO: Refresh  
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 19231319.0 ps INFO: Refresh  
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 20964652.0 ps INFO: Refresh  
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 22697985.0 ps INFO: Refresh  
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 24431319.0 ps INFO: Load Mode 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 24431319.0 ps INFO: Load Mode 0 Burst Length =  8
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 24431319.0 ps INFO: Load Mode 0 Burst Order = Sequential
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 24431319.0 ps INFO: Load Mode 0 CAS Latency =           5
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 24431319.0 ps INFO: Load Mode 0 Test Mode = Normal
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 24431319.0 ps INFO: Load Mode 0 DLL Reset = Normal
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 24431319.0 ps INFO: Load Mode 0 Write Recovery =           5
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 24431319.0 ps INFO: Load Mode 0 Power Down Mode = Fast Exit
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 26164652.0 ps INFO: Load Mode 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 26164652.0 ps INFO: Load Mode 0 Burst Length =  8
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 26164652.0 ps INFO: Load Mode 0 Burst Order = Sequential
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 26164652.0 ps INFO: Load Mode 0 CAS Latency =           5
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 26164652.0 ps INFO: Load Mode 0 Test Mode = Normal
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 26164652.0 ps INFO: Load Mode 0 DLL Reset = Normal
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 26164652.0 ps INFO: Load Mode 0 Write Recovery =           5
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 26164652.0 ps INFO: Load Mode 0 Power Down Mode = Fast Exit
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 27897985.0 ps INFO: Load Mode 1
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 27897985.0 ps INFO: Load Mode 1 DLL Enable = Enabled
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 27897985.0 ps INFO: Load Mode 1 Output Drive Strength = Full
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 27897985.0 ps INFO: Load Mode 1 ODT Rtt = 50 Ohm
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 27897985.0 ps INFO: Load Mode 1 Additive Latency =           0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 27897985.0 ps INFO: Load Mode 1 OCD Program = OCD Default
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 27897985.0 ps INFO: Load Mode 1 DQS_N Enable = Enabled
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 27897985.0 ps INFO: Load Mode 1 RDQS Enable = Disabled
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 27897985.0 ps INFO: Load Mode 1 Output Enable = Enabled
+PHY_INIT: Memory Initialization completed at 29544266.0 ps
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 29631319.0 ps INFO: Load Mode 1
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 29631319.0 ps INFO: Load Mode 1 DLL Enable = Enabled
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 29631319.0 ps INFO: Load Mode 1 Output Drive Strength = Full
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 29631319.0 ps INFO: Load Mode 1 ODT Rtt = 50 Ohm
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 29631319.0 ps INFO: Load Mode 1 Additive Latency =           0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 29631319.0 ps INFO: Load Mode 1 OCD Program = OCD Exit
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 29631319.0 ps INFO: Load Mode 1 DQS_N Enable = Enabled
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 29631319.0 ps INFO: Load Mode 1 RDQS Enable = Disabled
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 29631319.0 ps INFO: Load Mode 1 Output Enable = Enabled
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 29631319.0 ps INFO: Initialization Sequence is complete
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 31364652.0 ps INFO: Activate  bank 0 row 0000
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33097985.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33111319.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33112985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33114652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33116319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33117985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33119652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33121319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33122985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33124652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33124652.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33126319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33127985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33129652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33131319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33132985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33134652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33136319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33137985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33137985.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33139652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33141319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33142985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33144652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33146319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33147985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33149652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33151319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33151319.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33152985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33154652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33156319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33157985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33159652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33161319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33162985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33164652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33164652.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33166319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33167985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33169652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33171319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33172985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33174652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33176319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33177985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33177985.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33179652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33181319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33182985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33184652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33186319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33187985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33189652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33191319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33191319.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33192985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33194652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33196319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33197985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33199652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33201319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33202985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33204652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33204652.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33206319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33207985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33209652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33211319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33212985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33214652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33216319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33217985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33217985.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33219652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33221319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33222985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33224652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33226319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33227985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33229652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33231319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33231319.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33232985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33234652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33236319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33237985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33239652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33241319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33242985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33244652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33244652.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33246319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33247985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33249652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33251319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33252985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33254652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33256319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33257985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33257985.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33259652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33261319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33262985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33264652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33266319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33267985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33269652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33271319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33271319.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33272985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33274652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33276319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33277985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33279652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33281319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33282985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33284652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33284652.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33286319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33287985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33289652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33291319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33292985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33294652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33296319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33297985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33297985.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33299652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33301319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33302985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33304652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33306319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33307985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33309652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33311319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33311319.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33312985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33314652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33316319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33317985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33319652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33321319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33322985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33324652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33324652.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33326319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33327985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33329652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33331319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33332985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33334652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33336319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33337985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33337985.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33339652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33341319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33342985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33344652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33346319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33347985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33349652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33351319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33351319.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33352985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33354652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33356319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33357985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33359652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33361319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33362985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33364652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33364652.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33366319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33367985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33369652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33371319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33372985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33374652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33376319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33377985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33377985.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33379652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33381319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33382985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33384652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33386319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33387985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33389652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33391319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33391319.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33392985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33394652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33396319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33397985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33399652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33401319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33402985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33404652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33404652.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33406319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33407985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33409652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33411319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33412985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33414652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33416319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33417985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33417985.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33419652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33421319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33422985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33424652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33426319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33427985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33429652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33431319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33431319.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33432985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33434652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33436319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+PHY_INIT: Phaser_In Phase Locked at 33437599.0 ps
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33437985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33439652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33441319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33442985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33444652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33444652.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33446319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33447985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33449652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33451319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33452985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33454652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33456319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33457985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33457985.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33459652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33461319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33462985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33464652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33466319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33467985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33469652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33471319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33471319.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33472985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33474652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33476319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33477985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33479652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33481319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33482985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33484652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33484652.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33486319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33487985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33489652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33491319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33492985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33494652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33496319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33497985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33497985.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33499652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33501319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33502985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33504652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33506319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33507985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33509652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33511319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .cmd_task: at time 33511319.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33512985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33514652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33516319.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33517985.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = xxxx
+tb_teknofest_wrapper.\gen_dram[0].u_comp_ddr2 .data_task: at time 33519652.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000
