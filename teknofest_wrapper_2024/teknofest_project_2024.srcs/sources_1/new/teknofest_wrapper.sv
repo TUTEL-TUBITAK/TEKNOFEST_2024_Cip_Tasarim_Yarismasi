@@ -77,8 +77,8 @@ module teknofest_wrapper #(
         .UART_BAUD_RATE(UART_BAUD_RATE),
         .CPU_FREQ_HZ   (CPU_FREQ_HZ)
     )u_programmer (
-        .clk                    (core_clk),
-        .rst_n                  (core_rst_n),
+        .clk                    (sys_clk), // eski hali: (core_clk)
+        .rst_n                  (sys_rst_n), // eski hali: (core_rst_n)
         .mem_req                (programmer_mem.req),
         .mem_we                 (programmer_mem.we),
         .mem_addr               (programmer_mem.addr),
@@ -101,7 +101,7 @@ module teknofest_wrapper #(
     
     assign core_mem.rvalid = ~programmer_active && sel_mem.rvalid;
     assign core_mem.rdata  = {128{~programmer_active}} & sel_mem.rdata;
-    assign core_mem.gnt    = programmer_active && sel_mem.gnt;
+    assign core_mem.gnt    = ~programmer_active && sel_mem.gnt; // eski hali: programmer_active && sel_mem.gnt
     
     
     teknofest_memory #(
