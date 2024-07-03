@@ -152,7 +152,7 @@ module programmer #(
 
   logic [31:0] prog_addr;
   always @(posedge clk) begin
-    if (!(rst_n && system_reset_no)) begin
+    if (!rst_n) begin // eski hali: (!(rst_n && system_reset_no))
       prog_addr <= 'h0;
     end else begin
       if ((state_prog == SequenceProgram) && prog_inst_valid) begin
@@ -179,7 +179,7 @@ module programmer #(
       received_sequence    <= 72'h0;
       rcv_seq_ctr          <= 4'h0;
       prog_inst_valid      <= 1'b0;
-      system_reset_no       <= 1'b1;
+      system_reset_no      <= 1'b0; // eski hali: system_reset_no      <= 1'b1
     end else begin
       case (state_prog)
       SequenceWait: begin
@@ -191,7 +191,7 @@ module programmer #(
         received_sequence    <= 72'h0;
         rcv_seq_ctr          <= 4'h0;
         prog_inst_valid      <= 1'b0;
-        system_reset_no       <= 1'b1;
+        // eski hali: system_reset_no       <= 1'b1;
         if (recv_buf_valid) begin
           rcv_seq_ctr <= rcv_seq_ctr + 4'h1;
           received_sequence <= {received_sequence[PROG_SEQ_LENGTH*8-9:0],recv_buf_data[7:0]};
@@ -244,7 +244,7 @@ module programmer #(
         end
       end
       SequenceFinish: begin
-        system_reset_no <= 1'b0;
+        system_reset_no <= 1'b1; // eski hali: system_reset_no <= 1'b0
       end
     endcase
     end
