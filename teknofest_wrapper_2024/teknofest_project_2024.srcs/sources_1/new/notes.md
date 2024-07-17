@@ -1,0 +1,5 @@
+- it seems that both data and instructions will be sent to the processor over UART
+    - do they expect our processor to be on the ready, expecting instructions over UART, those should get written to program memory, and then get executed?
+    - does that mean that we would have to write our own instructions that do this?
+    - can we allow UART to write directly to program memory?, if not, can a program we write actually access program memory directly? doesn't that seem completely insecure?
+- why are there seemingly 2 ram modules?
