@@ -4,8 +4,9 @@ onerror {quit -force}
 transcript on
 
 vlib work
-vmap -link {C:/Users/fatih/teknofest_project_2024/teknofest_project_2024.cache/compile_simlib/activehdl}
 vlib activehdl/xil_defaultlib
+
+vmap xil_defaultlib activehdl/xil_defaultlib
 
 vlog -work xil_defaultlib  -v2k5 -l xil_defaultlib \
 "../../../../teknofest_project_2024.gen/sources_1/ip/mig_7series_0_1/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_clk_ibuf.v" \

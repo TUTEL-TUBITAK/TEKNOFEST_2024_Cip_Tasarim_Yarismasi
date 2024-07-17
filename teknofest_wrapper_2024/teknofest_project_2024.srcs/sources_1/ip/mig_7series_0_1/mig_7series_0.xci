@@ -1182,7 +1182,7 @@
         "OUTPUTDIR": [ { "value": "../../../../teknofest_project_2024.gen/sources_1/ip/mig_7series_0_1" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2023.1" } ],
+        "SWVERSION": [ { "value": "2023.2" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

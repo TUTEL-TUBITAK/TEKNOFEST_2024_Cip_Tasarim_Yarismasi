@@ -1,5 +1,5 @@
 ################################################################################
-# Vivado (TM) v2023.1 (64-bit)
+# Vivado (TM) v2023.2 (64-bit)
 #
 # README.txt: Please read the sections below to understand the steps required
 #             to simulate the design for a simulator, the directory structure
@@ -16,7 +16,7 @@ For example:-
 % cd questa
 % ./top.sh
 
-The export simulation flow requires the Xilinx pre-compiled simulation library
+The export simulation flow requires the AMD pre-compiled simulation library
 components for the target simulator. These components are referred using the
 '-lib_map_path' switch. If this switch is specified, then the export simulation
 will automatically set this library path in the generated script and update,

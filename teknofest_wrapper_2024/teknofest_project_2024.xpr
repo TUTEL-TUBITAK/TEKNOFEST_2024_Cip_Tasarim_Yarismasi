@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Product Version: Vivado v2023.1 (64-bit)                              -->
+<!-- Product Version: Vivado v2023.2 (64-bit)                              -->
 <!--                                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="63" Path="C:/Users/fatih/teknofest_project_2024/teknofest_project_2024.xpr">
+<Project Product="Vivado" Version="7" Minor="65" Path="D:/Documents/vivado/wrapper/teknofest_wrapper_2024/teknofest_project_2024.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="ee00752474064703a75834dc6ed2cb80"/>
@@ -29,7 +29,7 @@
     <Option Name="SimulatorGccInstallDirVCS" Val=""/>
     <Option Name="SimulatorGccInstallDirRiviera" Val=""/>
     <Option Name="SimulatorGccInstallDirActiveHdl" Val=""/>
-    <Option Name="SimulatorVersionXsim" Val="2023.1"/>
+    <Option Name="SimulatorVersionXsim" Val="2023.2"/>
     <Option Name="SimulatorVersionModelSim" Val="2023.2"/>
     <Option Name="SimulatorVersionQuesta" Val="2023.2"/>
     <Option Name="SimulatorVersionXcelium" Val="22.09.001"/>
@@ -58,20 +58,21 @@
     <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
-    <Option Name="WTXSimLaunchSim" Val="159"/>
+    <Option Name="FeatureSet" Val="FeatureSet_Classic"/>
+    <Option Name="WTXSimLaunchSim" Val="160"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="8"/>
-    <Option Name="WTModelSimExportSim" Val="8"/>
-    <Option Name="WTQuestaExportSim" Val="8"/>
+    <Option Name="WTXSimExportSim" Val="9"/>
+    <Option Name="WTModelSimExportSim" Val="9"/>
+    <Option Name="WTQuestaExportSim" Val="9"/>
     <Option Name="WTIesExportSim" Val="0"/>
-    <Option Name="WTVcsExportSim" Val="8"/>
-    <Option Name="WTRivieraExportSim" Val="8"/>
-    <Option Name="WTActivehdlExportSim" Val="8"/>
+    <Option Name="WTVcsExportSim" Val="9"/>
+    <Option Name="WTRivieraExportSim" Val="9"/>
+    <Option Name="WTActivehdlExportSim" Val="9"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
     <Option Name="XSimTimeUnit" Val="ns"/>
@@ -86,12 +87,12 @@
     <Option Name="ClassicSocBoot" Val="FALSE"/>
     <Option Name="LocalIPRepoLeafDirName" Val="ip_repo"/>
   </Configuration>
-  <FileSets Version="1" Minor="31">
+  <FileSets Version="1" Minor="32">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/ip/mig_7series_0_1/mig_7series_0.xci">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/ip/mig_7series_0_1/mig_7series_0.xci"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/teknofest_wrapper_2024.srcs/sources_1/ip/mig_7series_0_1/mig_7series_0.xci"/>
           <Attr Name="ImportTime" Val="1717483473"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -100,7 +101,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/programmer.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/programmer.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/teknofest_wrapper_2024.srcs/sources_1/new/programmer.sv"/>
           <Attr Name="ImportTime" Val="1717483473"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -109,7 +110,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/teknofest_memory.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/teknofest_memory.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/teknofest_wrapper_2024.srcs/sources_1/new/teknofest_memory.sv"/>
           <Attr Name="ImportTime" Val="1717483473"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -118,14 +119,14 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/teknofest_wrapper.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/teknofest_wrapper.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/teknofest_wrapper_2024.srcs/sources_1/new/teknofest_wrapper.sv"/>
           <Attr Name="ImportTime" Val="1717483473"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/ddr2_model_parameters.vh">
+      <File Path="$PPRDIR/teknofest_wrapper_2024.srcs/ddr2_model_parameters.vh">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -136,14 +137,14 @@
       <File Path="$PSRCDIR/sources_1/new/ddr2_model.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/ddr2_model.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/teknofest_wrapper_2024.srcs/sources_1/new/ddr2_model.v"/>
           <Attr Name="ImportTime" Val="1717483473"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/ddr3_model_parameters.vh">
+      <File Path="$PPRDIR/teknofest_wrapper_2024.srcs/ddr3_model_parameters.vh">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -154,7 +155,7 @@
       <File Path="$PSRCDIR/sources_1/new/ddr3_model.sv">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/ddr3_model.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/teknofest_wrapper_2024.srcs/sources_1/new/ddr3_model.sv"/>
           <Attr Name="ImportTime" Val="1717483473"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -163,7 +164,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/ip/mig_7series_0/mig_a.prj">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/ip/mig_7series_0/mig_a.prj"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/teknofest_wrapper_2024.srcs/sources_1/ip/mig_7series_0/mig_a.prj"/>
           <Attr Name="ImportTime" Val="1717483473"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="ScopedToCell" Val="mig_7series_0"/>
@@ -171,7 +172,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/ip/mig_7series_0_1/mig_a.prj">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/ip/mig_7series_0_1/mig_a.prj"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/teknofest_wrapper_2024.srcs/sources_1/ip/mig_7series_0_1/mig_a.prj"/>
           <Attr Name="ImportTime" Val="1717483473"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="ScopedToCell" Val="mig_7series_0"/>
@@ -179,7 +180,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/ip/mig_7series_0_1/mig_b.prj">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/ip/mig_7series_0_1/mig_b.prj"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/teknofest_wrapper_2024.srcs/sources_1/ip/mig_7series_0_1/mig_b.prj"/>
           <Attr Name="ImportTime" Val="1717483473"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="ScopedToCell" Val="mig_7series_0"/>
@@ -199,14 +200,15 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/tb_teknofest_wrapper.sv">
+      <File Path="$PPRDIR/teknofest_wrapper_2024.srcs/sources_1/new/tb_teknofest_wrapper.sv">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/tb_teknofest_memory.sv">
+      <File Path="$PPRDIR/teknofest_wrapper_2024.srcs/sources_1/new/tb_teknofest_memory.sv">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -216,7 +218,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="tb_teknofest_wrapper"/>
+        <Option Name="TopModule" Val="teknofest_wrapper"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
@@ -254,7 +256,7 @@
       <Option Name="Description" Val="Active-HDL Simulator"/>
     </Simulator>
   </Simulators>
-  <Runs Version="1" Minor="20">
+  <Runs Version="1" Minor="21">
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a100tcsg324-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
