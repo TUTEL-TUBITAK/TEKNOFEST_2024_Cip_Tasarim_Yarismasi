@@ -9,4 +9,10 @@ Wrapper tasarlanan işlemcinin ana bellek (SRAM veya DRAM) haberleşmesi için k
 - SRAM ve DRAM kullandığımı nasıl anlayacağım?
 Wrapper'ın `USE_SRAM` parametresi 1 olduğunda SRAM, 0 durumunda ise DRAM kullanmaktadır. DRAM Xilinx'in MIG IP'sini kullanmaktadır. 
 
+- Programımı nasıl yükleyeceğim.
+`./teknofest_wrapper_2024.srcs/sources_1/new/tb_teknofest_wrapper.sv` dosyasında kullanabileceğiniz yardımcı SV taskları bulunuyor. Öncelikle `boot_program` sinyalini `readmemh` fonksiyonu ile doldurmalısınız. Daha sonrasında `send_program` taskı ile bu program ana belleğe UART ile yazılacaktır. 
+
+Testbencteki `core_write` ve `core_read` taskları sistemi denemek için kullanılmıştır. 
+
+
 Sorular için issue açabilirsiniz.

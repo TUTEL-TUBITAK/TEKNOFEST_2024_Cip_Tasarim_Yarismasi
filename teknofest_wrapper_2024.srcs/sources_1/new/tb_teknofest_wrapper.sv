@@ -206,9 +206,9 @@ task send_prog_seq();
     send_prog_seq();
     send_program();
     
-    #1000ns;
-    core_write(0, 128'h1234AB);
-    core_read(0);
+    //#1000ns;
+    //core_write(0, 128'h1234AB);
+    //core_read(0);
   end
 
   
