@@ -1,0 +1,36 @@
+srcscan starts
+=============== Using precompiled files for SV std libs ===========
+INFO: The Verilog library search path for library "std" is now "F:/Xilinx/Vivado/2023.2/data/precomp_hsv/sv/std" (VERI-1509)
+INFO: The Verilog library search path for library "uvm" is now "F:/Xilinx/Vivado/2023.2/data/precomp_hsv/sv/uvm" (VERI-1509)
+INFO: analyzing module ddr2_model (VERI-9002)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/ddr2_model.v(147): INFO: Compiling verilog file "C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/ddr2_model_parameters.vh" included at line 147. (VERI-9003)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/ddr2_model.v(147): INFO: back to file 'C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/ddr2_model.v' (VERI-2320)
+INFO: analyzing module ddr3_model (VERI-9002)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/ddr3_model.sv(121): INFO: Compiling verilog file "C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/ddr3_model_parameters.vh" included at line 121. (VERI-9003)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/ddr3_model.sv(121): INFO: back to file 'C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/ddr3_model.sv' (VERI-2320)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/ddr3_model.sv(136): WARNING: macro 'MAX_PIPE' is redefined (VERI-1295)
+INFO: analyzing module programmer (VERI-9002)
+INFO: analyzing module tb_teknofest_memory (VERI-9002)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/tb_teknofest_memory.sv(67): ERROR: 'ui_clk' is not declared (VERI-1128)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/tb_teknofest_memory.sv(81): ERROR: 'ui_clk' is not declared (VERI-1128)
+INFO: analyzing module tb_teknofest_wrapper (VERI-9002)
+INFO: analyzing module teknofest_memory (VERI-9002)
+INFO: analyzing module teknofest_wrapper (VERI-9002)
+Listing tops:
+VeriTop library:xil_defaultlib mod:ddr3_model
+VeriTop library:xil_defaultlib mod:tb_teknofest_memory
+VeriTop library:xil_defaultlib mod:tb_teknofest_wrapper
+END of tops
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/ddr3_model.sv(102): INFO: compiling module 'ddr3_model_default' (VERI-1018)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/tb_teknofest_memory.sv(23): INFO: compiling module 'tb_teknofest_memory_default' (VERI-1018)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/tb_teknofest_wrapper.sv(23): INFO: compiling module 'tb_teknofest_wrapper_default' (VERI-1018)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/tb_teknofest_memory.sv(49): ERROR: 'ui_clk' is not found for implicit .* port connection (VERI-2367)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/teknofest_memory.sv(124): WARNING: Module <mig_7series_0> not found while processing module instance <gen_ddr.u_ddr> (VERI-1063)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/tb_teknofest_memory.sv(67): ERROR: 'ui_clk' is not declared (VERI-1128)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/tb_teknofest_memory.sv(81): ERROR: 'ui_clk' is not declared (VERI-1128)
+C:/Users/gamem/Desktop/teknofest_wrapper_2024/teknofest_wrapper_2024.srcs/sources_1/new/teknofest_wrapper.sv(123): WARNING: port 'mem_gnt' is not connected on this instance (VERI-2435)
+ModName: programmer(UART_BAUD_RATE=32'b010110111000110110000,CPU_FREQ_HZ=32'b0100011110000110100011000000)
+ModName: teknofest_wrapper(USE_SRAM=32'b0,UART_BAUD_RATE=750000)
+BaseName programmer has 1 entries
+BaseName teknofest_wrapper has 1 entries
+srcscan exits with return value 0
